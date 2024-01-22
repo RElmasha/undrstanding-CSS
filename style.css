@@ -1,0 +1,76 @@
+.principal{
+    background-color: lightgray;
+    padding-top: 5px;
+    margin: 10px;
+}
+body{
+   padding-top: 30px;
+}
+.titre1{
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgba(00, 195, 11, 20);
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-style: oblique;
+}
+.titre3{
+    font-weight:lighter;
+    font-size: 0.9rem;
+    color: black;
+    font-family:'Lucida Sans', sans-serif;
+    text-align: center;
+    font-style: oblique;
+}
+.fig1{/*nous appelons la classe fig1 créée dans notre HTML, puis nous rendons l"image flexible (flex), puis nous la cenrons.*/
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 20px;
+    padding-top: 40px;
+}
+img{/*nous determinons la taille de l'image en appelant l'attribut img.*/
+    width: 1020px;
+    height: 500px;
+    align-self: center;
+}
+
+p{
+    font-weight:lighter;
+    font-size: 0.9rem;
+    color: black;
+    font-family:'Lucida Sans', sans-serif;
+    text-align: center;
+    font-style: oblique;
+}
+
+#texte{
+    font-weight:bold;
+    font-size: 0.9rem;
+    color: black;
+    font-family:'Lucida Sans', sans-serif;
+    text-align: center;
+    font-style: oblique;
+}
+#liste{
+    font-weight:lighter;
+    font-size: 0.9rem;
+    color: black;
+    font-family:'Lucida Sans', sans-serif;
+    text-align:justify;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+blockquote{
+    font-weight:lighter;
+    font-size: 0.9rem;
+    color: black;
+    font-family:'Lucida Sans', sans-serif;
+    text-align:justify;
+    margin-left: 300px;
+    margin-right: 300px;;
+    margin-top: 50px;
+}
+#entete{
+    background-color: aliceblue;
+}
